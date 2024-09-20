@@ -3,6 +3,10 @@ import { DefaultTheme, defineConfig } from 'vitepress'
 export const ja = defineConfig({
     lang: "ja",
     themeConfig: {
+        editLink: {
+            pattern: "https://github.com/bqc0n/clayium-wiki/edit/main/docs/:path",
+            text: "GitHub で編集",
+        },
         sidebar: sidebar()
     }
 })
