@@ -10,4 +10,7 @@ export default defineConfig({
     root: { label: "日本語", ...ja },
     en: { label: "English", ...en },
   },
+  markdown: {
+    math: true
+  },
 })

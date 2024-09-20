@@ -1,7 +1,7 @@
 import { DefaultTheme, defineConfig } from 'vitepress'
 
 export const ja = defineConfig({
-    lang: "ja", 
+    lang: "ja",
     themeConfig: {
         sidebar: sidebar()
     }
@@ -13,7 +13,8 @@ function sidebar(): DefaultTheme.SidebarItem[] {
             text: "はじめに",
             collapsed: false,
             items: [
-                { text: "原作からの変更点", link: "changes-from-original" }
+                { text: "原作からの変更点", link: "changes-from-original" },
+                { text: "粘土レーザ", link: "laser" },
             ]
         }
     ]
