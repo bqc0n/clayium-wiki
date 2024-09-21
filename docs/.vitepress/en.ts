@@ -17,7 +17,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
     return [
         {
             text: "Introduction",
-            base: "introduction/",
+            base: "en/introduction/",
             collapsed: false,
             items: [
                 { text: "Changes from original", link: "changes-from-original" },
@@ -25,7 +25,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
         },
         {
             text: "Features",
-            base: "features/",
+            base: "en/features/",
             collapsed: true,
             items: [
                 { text: "Clay laser", link: "clay-laser" }
@@ -33,7 +33,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
         },
         {
             text: "GroovyScript",
-            base: "groovy-script/",
+            base: "en/groovy-script/",
             collapsed: true,
             items: [
                 { text: "Recipe", link: "recipe" }
