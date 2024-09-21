@@ -25,8 +25,10 @@ E_i = m_i ^ {a_i} \cdot \frac{1 + rn_iC_i^{n_i}}{1+rC_i^{n_i}}
 $$
 ただし
 $$
-C_i=bi^{(1+r)\log_{m_i}(\frac{1+r}{r})}, \\ {} \\
+\begin{aligned}
+C_i=bi^{(1+r)\log_{m_i}(\frac{1+r}{r})} \\\\
 a_i = \frac{\ln(\frac{1 + r}{C_i^{-n_i}+r})}{\ln(\frac{1}{r}(1+r))}
+\end{aligned}
 $$
 $E_i < 1$ なら、$E_i = 1$を代入します。
 
