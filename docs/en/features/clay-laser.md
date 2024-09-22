@@ -1,7 +1,3 @@
----
-outline: deep
----
-
 # Clay Laser
 
 ## Laser Energy

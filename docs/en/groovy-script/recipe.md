@@ -1,9 +1,3 @@
----
-outline: deep
-prev: false
-next: false
----
-
 # GroovyScript Integration
 
 With [GroovyScript](https://github.com/CleanroomMC/GroovyScript), you can add or remove recipes.

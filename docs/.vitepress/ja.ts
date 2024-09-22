@@ -26,7 +26,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
             base: "features/",
             collapsed: true,
             items: [
-                { text: "粘土レーザ", link: "clay-laser" }
+                { text: "粘土レーザ", link: "clay-laser" },
             ],
         },
         {
@@ -34,7 +34,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
             base: "groovy-script/",
             collapsed: true,
             items: [
-                { text: "レシピ", link: "recipe" }
+                { text: "レシピ", link: "recipe" },
             ]
         },
     ]

@@ -1,7 +1,3 @@
----
-outline: deep
----
-
 # Changes from the original
 * Some recipes are now cheaper.
 * The deny/allowlist filter is now merged to an Item Filter. You can switch it in the GUI.

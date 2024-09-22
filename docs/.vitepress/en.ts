@@ -28,7 +28,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
             base: "en/features/",
             collapsed: true,
             items: [
-                { text: "Clay laser", link: "clay-laser" }
+                { text: "Clay laser", link: "clay-laser" },
             ],
         },
         {
@@ -36,7 +36,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
             base: "en/groovy-script/",
             collapsed: true,
             items: [
-                { text: "Recipe", link: "recipe" }
+                { text: "Recipe", link: "recipe" },
             ]
         },
     ]
