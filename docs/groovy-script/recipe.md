@@ -1,9 +1,3 @@
----
-outline: deep
-prev: false
-next: false
----
-
 # Groovy Script連携
 
 [GroovyScript](https://github.com/CleanroomMC/GroovyScript)を用いて、レシピの追加や削除を行えます。
