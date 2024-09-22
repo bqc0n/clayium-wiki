@@ -5,6 +5,10 @@ import {
 } from "@nolebase/vitepress-plugin-git-changelog/vite";
 
 export const shared = defineConfig({
+    title: "Clayium Wiki",
+    base: "/clayium-wiki/",
+    description: "a wiki for Clayium Unofficial",
+    lastUpdated: false,
     vite: {
         plugins: [
             GitChangelog({

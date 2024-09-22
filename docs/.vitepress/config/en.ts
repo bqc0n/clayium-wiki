@@ -8,7 +8,7 @@ export const en = defineConfig({
             text: "Edit this page on GitHub",
         },
         sidebar: {
-            "en/": { base: "en/", items: sidebar() }
+            "/en/": { base: "/en/", items: sidebar() }
         }
     }
 })
@@ -17,26 +17,26 @@ function sidebar(): DefaultTheme.SidebarItem[] {
     return [
         {
             text: "Introduction",
-            base: "en/introduction/",
+            base: "/en/introduction/",
             collapsed: false,
             items: [
-                { text: "Changes from original", link: "changes-from-original" },
+                { text: "Changes from original", link: "/changes-from-original" },
             ]
         },
         {
             text: "Features",
-            base: "en/features/",
+            base: "/en/features/",
             collapsed: true,
             items: [
-                { text: "Clay laser", link: "clay-laser" },
+                { text: "Clay laser", link: "/clay-laser" },
             ],
         },
         {
             text: "GroovyScript",
-            base: "en/groovy-script/",
+            base: "/en/groovy-script/",
             collapsed: true,
             items: [
-                { text: "Recipe", link: "recipe" },
+                { text: "Recipe", link: "/recipe" },
             ]
         },
     ]
