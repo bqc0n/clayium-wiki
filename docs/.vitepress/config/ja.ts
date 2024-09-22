@@ -18,7 +18,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
             base: "/introduction/",
             collapsed: false,
             items: [
-                { text: "原作からの変更点", link: "/changes-from-original" },
+                { text: "原作からの変更点", link: "changes-from-original" },
             ]
         },
         {
@@ -26,7 +26,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
             base: "/features/",
             collapsed: true,
             items: [
-                { text: "粘土レーザ", link: "/clay-laser" },
+                { text: "粘土レーザ", link: "clay-laser" },
             ],
         },
         {
@@ -34,7 +34,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
             base: "/groovy-script/",
             collapsed: true,
             items: [
-                { text: "レシピ", link: "/recipe" },
+                { text: "レシピ", link: "recipe" },
             ]
         },
     ]

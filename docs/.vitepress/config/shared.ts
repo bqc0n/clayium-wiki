@@ -28,6 +28,11 @@ export const shared = defineConfig({
         ],
     },
     markdown: {
-        math: true
+        math: true,
     },
+    themeConfig: {
+        socialLinks: [
+            { icon: "github", link: "https://github.com/TRCDevelopers/Clayium" }
+        ]
+    }
 })
