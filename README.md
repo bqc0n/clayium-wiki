@@ -1,1 +1,1 @@
-https://bqc0n.github.io/clayium-wiki/
+https://clayium.bqc0n.com
