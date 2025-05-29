@@ -1,1 +1,1 @@
-https://clayium.bqc0n.com
+Merged to the [Main Repo](https://github.com/TRCDevelopers/Clayium).
